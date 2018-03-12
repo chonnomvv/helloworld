@@ -50,10 +50,7 @@ public class Practice08 {
 
 			default:
 				System.out.println("다시 입력해주세요. ");
-				
-
-				
-				
+						
 			}
 
 		}

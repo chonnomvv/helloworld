@@ -12,13 +12,13 @@ public class Practice06 {
 		int number = sc.nextInt();
 		int sum = 0;
 		switch(number%2){
+		
 		case 0:
 			
 			for(int i = 2; i<=number; i++) {
 				if(i%2 == 0) {
 					sum = sum + i;
-				}
-				
+				}		
 			}
 			System.out.println("총합은 " + sum + "입니다.");
 			break;
@@ -29,7 +29,6 @@ public class Practice06 {
 				if(i%2 !=0) {
 					sum = sum + i;
 				}
-				
 			}
 			System.out.println("총합은 " + sum + "입니다.");
 			break;
