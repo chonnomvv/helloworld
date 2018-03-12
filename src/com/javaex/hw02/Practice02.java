@@ -8,7 +8,7 @@ public class Practice02 {
 		// 5개의 숫자를 입력받아 평균을 구하는 프로그램
 		
 		Scanner sc = new Scanner(System.in);
-		int[] array = {0,0,0,0,0};
+		int[] array = new int[5];
 		double sum = 0;
 		
 		System.out.println("숫자 5개를 입력하세요.");
